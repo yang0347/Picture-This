@@ -16,7 +16,7 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <section>
-      <img srcset="images/museum320x180.jpg 320w,
+      <img srcset="images/museum_320x180.jpg 320w,
       images/museum_480x270.jpg 480w,
       images/museum_720x405.jpg 720w,
       images/museum_960x540.jpg 960w" 
@@ -28,9 +28,23 @@
   </section>
 
   <picture>
-    <source srcset="images/museum 960x540.jpg,
-    images/museum_1920x.jpg x2,
-    images/museum_2880.jpg x3" media="(max-width: 960px)">
+    <source srcset="images/museum_800.jpg,
+    images/museum_1600.jpg 2x,
+    images/museum_2400.jpg 3x" media="(min-width: 1600px)">
+
+    <source srcset="images/museum_800.jpg,
+    images/museum_1600.jpg 2x,
+    images/museum_2400.jpg 3x" media="(min-width: 1280px)">
+
+    <source srcset="images/museum_800.jpg,
+    images/museum_1600.jpg 2x,
+    images/museum_2400.jpg 3x" media="(min-width: 960px)">
+
+    <source srcset="images/museum_960x540.jpg,
+    images/museum_1920x.jpg 2x,
+    images/museum_2880.jpg 3x" media="(max-width: 960px)">
+
+
 
   </picture>
  
