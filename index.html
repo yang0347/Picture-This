@@ -16,22 +16,22 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <section>
-      <img srcset="images/museum.jpg 320w,
-      images/museum.jpg 480w,
-      images/museum.jpg 720w,
-      images/museum.jpg 960w" 
+      <img srcset="images/museum320x180.jpg 320w,
+      images/museum_480x270.jpg 480w,
+      images/museum_720x405.jpg 720w,
+      images/museum_960x540.jpg 960w" 
       sizes="(max-width:320px) 320px,
       (max-width: 480px) 480px,
       (max-width: 720px) 720px,
       (max-width: 960px) 960px"
-      src="images/museum.jpg" alt="placeholder">
+      src="images/museum_720x405.jpg" alt="placeholder">
   </section>
 
   <picture>
-    <source srcset="images/museum_320x180.jpg,
-    images/museum_480x270.jpg 1x,
-    images/museum_720x405.jpg 2x,
-    images/museum_960x540.jpg 3x" media="(max-width: 960px)">
+    <source srcset="images/museum 320x180.jpg,
+    images/museum_640x180.jpg x1,
+    images/museum_720x405.jpg x2,
+    images/museum_960x540.jpg x3" media="(max-width: 320px)">
 
   </picture>
  
