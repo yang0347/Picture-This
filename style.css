@@ -38,5 +38,6 @@ img {
   .header {
     margin-bottom: 750px;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
